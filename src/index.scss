@@ -1,7 +1,12 @@
-h1 {
-  color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-button {
-  padding: 10px;
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
 }
