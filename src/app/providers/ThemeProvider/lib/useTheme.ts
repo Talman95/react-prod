@@ -10,9 +10,9 @@ interface UseThemeReturnType {
 export const useTheme = (): UseThemeReturnType => {
   const { theme, setTheme } = useContext(ThemeContext);
 
-  if (!theme) {
-    throw new Error('Can not use useTheme outside of the ThemeProvider');
-  }
+  // if (!theme) {
+  //   throw new Error('Can not use useTheme outside of the ThemeProvider');
+  // }
 
   const toggleTheme = () => {
     const newTheme = theme === Theme.LIGHT ? Theme.DARK : Theme.LIGHT;

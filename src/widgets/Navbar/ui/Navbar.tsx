@@ -17,7 +17,6 @@ export const Navbar = ({ className }: NavBarProps) => {
         <AppLink variant={AppLinkVariant.SECONDARY} to="/">
           {t('Главная')}
         </AppLink>
-        {/* eslint-disable-next-line i18next/no-literal-string */}
         <AppLink variant={AppLinkVariant.SECONDARY} to="/about">
           {t('О сайте')}
         </AppLink>
